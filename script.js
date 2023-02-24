@@ -1,5 +1,6 @@
 // Get delivery estimates table from html above
 let dataku = [];
+let debug = [];
 const element = document.querySelectorAll('.accordion');
 // iterate over each table
 element.forEach((el) => {
@@ -38,13 +39,16 @@ element.forEach((el) => {
             // td1 is min days
             // td2 is max days
             const cells = row.querySelectorAll('th, td');
-            let from = cells[0].innerText;
-            let minimumDays = cells[1].innerText;
-            let maximumDays = cells[2].innerText;
 
-            if (from.length === 0) {
+            // if all th skip
+            if (cells.item(0).tagName === 'TH' && cells.item(1).tagName === 'TH' && cells.item(2).tagName === 'TH') {
                 return;
             }
+
+            let from = cells[0].innerText;
+            // get the min and max days from the 2nd p tag in the td
+            const minimumDays = cells[1].querySelector('td :nth-child(2)').innerText;
+            const maximumDays = cells[2].querySelector('td :nth-child(2)').innerText;
 
             tableData.push({
                 from : from,
@@ -52,9 +56,6 @@ element.forEach((el) => {
                 maximumDays : maximumDays.split(' ')[0]
             });
         });
-
-        // remove the first row
-        tableData.shift();
 
         data.push({
             type : caption,
