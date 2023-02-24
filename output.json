@@ -1,0 +1,777 @@
+[
+    {
+        "destination": "Same state deliveries",
+        "origin": [
+            {
+                "type": "Express Post - same state",
+                "data": [
+                    {
+                        "from": "ACT",
+                        "minimumDays": "1",
+                        "maximumDays": "2"
+                    },
+                    {
+                        "from": "New South Wales",
+                        "minimumDays": "1",
+                        "maximumDays": "2"
+                    },
+                    {
+                        "from": "Northern Territory",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    },
+                    {
+                        "from": "Queensland",
+                        "minimumDays": "1",
+                        "maximumDays": "2"
+                    },
+                    {
+                        "from": "South Australia",
+                        "minimumDays": "1",
+                        "maximumDays": "2"
+                    },
+                    {
+                        "from": "Tasmania",
+                        "minimumDays": "1",
+                        "maximumDays": "2"
+                    },
+                    {
+                        "from": "Victoria",
+                        "minimumDays": "1",
+                        "maximumDays": "2"
+                    },
+                    {
+                        "from": "Western Australia",
+                        "minimumDays": "1",
+                        "maximumDays": "3"
+                    }
+                ]
+            },
+            {
+                "type": "Parcel Post - same state",
+                "data": [
+                    {
+                        "from": "ACT",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    },
+                    {
+                        "from": "New South Wales",
+                        "minimumDays": "2",
+                        "maximumDays": "4"
+                    },
+                    {
+                        "from": "Northern Territory",
+                        "minimumDays": "4",
+                        "maximumDays": "9"
+                    },
+                    {
+                        "from": "Queensland",
+                        "minimumDays": "2",
+                        "maximumDays": "4"
+                    },
+                    {
+                        "from": "South Australia",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    },
+                    {
+                        "from": "Tasmania",
+                        "minimumDays": "1",
+                        "maximumDays": "2"
+                    },
+                    {
+                        "from": "Victoria",
+                        "minimumDays": "2",
+                        "maximumDays": "4"
+                    },
+                    {
+                        "from": "Western Australia",
+                        "minimumDays": "3",
+                        "maximumDays": "7"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "destination": "To Australian Capital Territory",
+        "origin": [
+            {
+                "type": "Express Post - to ACT",
+                "data": [
+                    {
+                        "from": "From New South Wales",
+                        "minimumDays": "1",
+                        "maximumDays": "2"
+                    },
+                    {
+                        "from": "From Northern Territory",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    },
+                    {
+                        "from": "From Queensland",
+                        "minimumDays": "1",
+                        "maximumDays": "3"
+                    },
+                    {
+                        "from": "From South Australia",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    },
+                    {
+                        "from": "From Tasmania",
+                        "minimumDays": "2",
+                        "maximumDays": "2"
+                    },
+                    {
+                        "from": "From Victoria",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    },
+                    {
+                        "from": "From Western Australia",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    }
+                ]
+            },
+            {
+                "type": "Parcel Post - to ACT",
+                "data": [
+                    {
+                        "from": "From New South Wales",
+                        "minimumDays": "2",
+                        "maximumDays": "4"
+                    },
+                    {
+                        "from": "From Northern Territory",
+                        "minimumDays": "6",
+                        "maximumDays": "6"
+                    },
+                    {
+                        "from": "From Queensland",
+                        "minimumDays": "3",
+                        "maximumDays": "4"
+                    },
+                    {
+                        "from": "From South Australia",
+                        "minimumDays": "4",
+                        "maximumDays": "5"
+                    },
+                    {
+                        "from": "From Tasmania",
+                        "minimumDays": "4",
+                        "maximumDays": "6"
+                    },
+                    {
+                        "from": "From Victoria",
+                        "minimumDays": "3",
+                        "maximumDays": "4"
+                    },
+                    {
+                        "from": "From Western Australia",
+                        "minimumDays": "6",
+                        "maximumDays": "7"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "destination": "To New South Wales",
+        "origin": [
+            {
+                "type": "Express Post - to NSW",
+                "data": [
+                    {
+                        "from": "From ACT",
+                        "minimumDays": "2",
+                        "maximumDays": "2"
+                    },
+                    {
+                        "from": "From Northern Territory",
+                        "minimumDays": "3",
+                        "maximumDays": "4"
+                    },
+                    {
+                        "from": "From Queensland",
+                        "minimumDays": "2",
+                        "maximumDays": "2"
+                    },
+                    {
+                        "from": "From South Australia",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    },
+                    {
+                        "from": "From Tasmania",
+                        "minimumDays": "1",
+                        "maximumDays": "2"
+                    },
+                    {
+                        "from": "From Victoria",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    },
+                    {
+                        "from": "From Western Australia",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    }
+                ]
+            },
+            {
+                "type": "Parcel Post delivery times - to NSW",
+                "data": [
+                    {
+                        "from": "From ACT",
+                        "minimumDays": "3",
+                        "maximumDays": "4"
+                    },
+                    {
+                        "from": "From Northern Territory",
+                        "minimumDays": "6",
+                        "maximumDays": "7"
+                    },
+                    {
+                        "from": "From Queensland",
+                        "minimumDays": "3",
+                        "maximumDays": "4"
+                    },
+                    {
+                        "from": "From South Australia",
+                        "minimumDays": "4",
+                        "maximumDays": "5"
+                    },
+                    {
+                        "from": "From Tasmania",
+                        "minimumDays": "5",
+                        "maximumDays": "6"
+                    },
+                    {
+                        "from": "From Victoria",
+                        "minimumDays": "3",
+                        "maximumDays": "4"
+                    },
+                    {
+                        "from": "From Western Australia",
+                        "minimumDays": "6",
+                        "maximumDays": "7"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "destination": "To Northern Territory",
+        "origin": [
+            {
+                "type": "Express Post - to NT",
+                "data": [
+                    {
+                        "from": "From ACT",
+                        "minimumDays": "3",
+                        "maximumDays": "3"
+                    },
+                    {
+                        "from": "From New South Wales",
+                        "minimumDays": "3",
+                        "maximumDays": "5"
+                    },
+                    {
+                        "from": "From Queensland",
+                        "minimumDays": "3",
+                        "maximumDays": "4"
+                    },
+                    {
+                        "from": "From South Australia",
+                        "minimumDays": "3",
+                        "maximumDays": "4"
+                    },
+                    {
+                        "from": "From Tasmania",
+                        "minimumDays": "3",
+                        "maximumDays": "5"
+                    },
+                    {
+                        "from": "From Victoria",
+                        "minimumDays": "3",
+                        "maximumDays": "5"
+                    },
+                    {
+                        "from": "From Western Australia",
+                        "minimumDays": "3",
+                        "maximumDays": "4"
+                    }
+                ]
+            },
+            {
+                "type": "Parcel Post - to NT",
+                "data": [
+                    {
+                        "from": "From ACT",
+                        "minimumDays": "8",
+                        "maximumDays": "11"
+                    },
+                    {
+                        "from": "From New South Wales",
+                        "minimumDays": "7",
+                        "maximumDays": "13"
+                    },
+                    {
+                        "from": "From Queensland",
+                        "minimumDays": "8",
+                        "maximumDays": "12"
+                    },
+                    {
+                        "from": "From South Australia",
+                        "minimumDays": "5",
+                        "maximumDays": "11"
+                    },
+                    {
+                        "from": "From Tasmania",
+                        "minimumDays": "9",
+                        "maximumDays": "13"
+                    },
+                    {
+                        "from": "From Victoria",
+                        "minimumDays": "7",
+                        "maximumDays": "11"
+                    },
+                    {
+                        "from": "From Western Australia",
+                        "minimumDays": "9",
+                        "maximumDays": "14"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "destination": "To Queensland",
+        "origin": [
+            {
+                "type": "Express Post - to Qld",
+                "data": [
+                    {
+                        "from": "From ACT\n",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    },
+                    {
+                        "from": "From New South Wales\n",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    },
+                    {
+                        "from": "From Northern Territory\n",
+                        "minimumDays": "2",
+                        "maximumDays": "4"
+                    },
+                    {
+                        "from": "From South Australia\n",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    },
+                    {
+                        "from": "From Tasmania\n",
+                        "minimumDays": "2",
+                        "maximumDays": "2"
+                    },
+                    {
+                        "from": "From Victoria\n",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    },
+                    {
+                        "from": "From Western Australia\n",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    }
+                ]
+            },
+            {
+                "type": "Parcel Post - to Qld",
+                "data": [
+                    {
+                        "from": "From ACT\n",
+                        "minimumDays": "4",
+                        "maximumDays": "6"
+                    },
+                    {
+                        "from": "From New South Wales\n",
+                        "minimumDays": "3",
+                        "maximumDays": "5"
+                    },
+                    {
+                        "from": "From Northern Territory\n",
+                        "minimumDays": "6",
+                        "maximumDays": "7"
+                    },
+                    {
+                        "from": "From South Australia\n",
+                        "minimumDays": "4",
+                        "maximumDays": "6"
+                    },
+                    {
+                        "from": "From Tasmania\n",
+                        "minimumDays": "5",
+                        "maximumDays": "7"
+                    },
+                    {
+                        "from": "From Victoria\n",
+                        "minimumDays": "4",
+                        "maximumDays": "6"
+                    },
+                    {
+                        "from": "From Western Australia\n",
+                        "minimumDays": "6",
+                        "maximumDays": "7"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "destination": "To South Australia",
+        "origin": [
+            {
+                "type": "Express Post - to SA",
+                "data": [
+                    {
+                        "from": "From ACT",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    },
+                    {
+                        "from": "From New South Wales",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    },
+                    {
+                        "from": "From Northern Territory",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    },
+                    {
+                        "from": "From Queensland",
+                        "minimumDays": "2",
+                        "maximumDays": "2"
+                    },
+                    {
+                        "from": "From Tasmania",
+                        "minimumDays": "1",
+                        "maximumDays": "2"
+                    },
+                    {
+                        "from": "From Victoria",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    },
+                    {
+                        "from": "From Western Australia",
+                        "minimumDays": "3",
+                        "maximumDays": "4"
+                    }
+                ]
+            },
+            {
+                "type": "Parcel Post - to SA",
+                "data": [
+                    {
+                        "from": "From ACT",
+                        "minimumDays": "5",
+                        "maximumDays": "7"
+                    },
+                    {
+                        "from": "From New South Wales",
+                        "minimumDays": "4",
+                        "maximumDays": "6"
+                    },
+                    {
+                        "from": "From Northern Territory",
+                        "minimumDays": "5",
+                        "maximumDays": "7"
+                    },
+                    {
+                        "from": "From Queensland",
+                        "minimumDays": "4",
+                        "maximumDays": "6"
+                    },
+                    {
+                        "from": "From Tasmania",
+                        "minimumDays": "5",
+                        "maximumDays": "6"
+                    },
+                    {
+                        "from": "From Victoria",
+                        "minimumDays": "3",
+                        "maximumDays": "5"
+                    },
+                    {
+                        "from": "From Western Australia",
+                        "minimumDays": "5",
+                        "maximumDays": "6"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "destination": "To Tasmania",
+        "origin": [
+            {
+                "type": "Express Post - to Tasmania",
+                "data": [
+                    {
+                        "from": "From ACT\n",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    },
+                    {
+                        "from": "From New South Wales\n",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    },
+                    {
+                        "from": "From Northern Territory\n",
+                        "minimumDays": "3",
+                        "maximumDays": "3"
+                    },
+                    {
+                        "from": "From Queensland\n",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    },
+                    {
+                        "from": "From South Australia\n",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    },
+                    {
+                        "from": "From Victoria\n",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    },
+                    {
+                        "from": "From Western Australia\n",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    }
+                ]
+            },
+            {
+                "type": "Parcel Post - to Tasmania",
+                "data": [
+                    {
+                        "from": "From ACT\n",
+                        "minimumDays": "4",
+                        "maximumDays": "7"
+                    },
+                    {
+                        "from": "From New South Wales\n",
+                        "minimumDays": "4",
+                        "maximumDays": "6"
+                    },
+                    {
+                        "from": "From Northern Territory\n",
+                        "minimumDays": "8",
+                        "maximumDays": "9"
+                    },
+                    {
+                        "from": "From Queensland\n",
+                        "minimumDays": "5",
+                        "maximumDays": "6"
+                    },
+                    {
+                        "from": "From South Australia\n",
+                        "minimumDays": "4",
+                        "maximumDays": "6"
+                    },
+                    {
+                        "from": "From Victoria\n",
+                        "minimumDays": "3",
+                        "maximumDays": "5"
+                    },
+                    {
+                        "from": "From Western Australia\n",
+                        "minimumDays": "7",
+                        "maximumDays": "9"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "destination": "To Victoria",
+        "origin": [
+            {
+                "type": "Express Post - to Victoria",
+                "data": [
+                    {
+                        "from": "From ACT\n",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    },
+                    {
+                        "from": "From New South Wales\n",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    },
+                    {
+                        "from": "From Northern Territory\n",
+                        "minimumDays": "3",
+                        "maximumDays": "4"
+                    },
+                    {
+                        "from": "From Queensland\n",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    },
+                    {
+                        "from": "From South Australia\n",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    },
+                    {
+                        "from": "From Tasmania\n",
+                        "minimumDays": "1",
+                        "maximumDays": "2"
+                    },
+                    {
+                        "from": "From Western Australia\n",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    }
+                ]
+            },
+            {
+                "type": "Parcel Post - to Victoria",
+                "data": [
+                    {
+                        "from": "From ACT\n",
+                        "minimumDays": "3",
+                        "maximumDays": "6"
+                    },
+                    {
+                        "from": "From New South Wales\n",
+                        "minimumDays": "3",
+                        "maximumDays": "5"
+                    },
+                    {
+                        "from": "From Northern Territory\n",
+                        "minimumDays": "6",
+                        "maximumDays": "8"
+                    },
+                    {
+                        "from": "From Queensland\n",
+                        "minimumDays": "4",
+                        "maximumDays": "5"
+                    },
+                    {
+                        "from": "From South Australia\n",
+                        "minimumDays": "3",
+                        "maximumDays": "4"
+                    },
+                    {
+                        "from": "From Tasmania\n",
+                        "minimumDays": "3",
+                        "maximumDays": "5"
+                    },
+                    {
+                        "from": "From Western Australia\n",
+                        "minimumDays": "6",
+                        "maximumDays": "8"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "destination": "To Western Australia",
+        "origin": [
+            {
+                "type": "Express Post - to WA",
+                "data": [
+                    {
+                        "from": "From ACT\n",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    },
+                    {
+                        "from": "From New South Wales\n",
+                        "minimumDays": "2",
+                        "maximumDays": "4"
+                    },
+                    {
+                        "from": "From Northern Territory\n",
+                        "minimumDays": "3",
+                        "maximumDays": "9"
+                    },
+                    {
+                        "from": "From Queensland\n",
+                        "minimumDays": "2",
+                        "maximumDays": "4"
+                    },
+                    {
+                        "from": "From South Australia\n",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    },
+                    {
+                        "from": "From Tasmania\n",
+                        "minimumDays": "2",
+                        "maximumDays": "3"
+                    },
+                    {
+                        "from": "From Victoria\n",
+                        "minimumDays": "3",
+                        "maximumDays": "4"
+                    }
+                ]
+            },
+            {
+                "type": "Parcel Post - to WA",
+                "data": [
+                    {
+                        "from": "From ACT\n",
+                        "minimumDays": "8",
+                        "maximumDays": "11"
+                    },
+                    {
+                        "from": "From New South Wales\n",
+                        "minimumDays": "7",
+                        "maximumDays": "10"
+                    },
+                    {
+                        "from": "From Northern Territory\n",
+                        "minimumDays": "9",
+                        "maximumDays": "14"
+                    },
+                    {
+                        "from": "From Queensland\n",
+                        "minimumDays": "8",
+                        "maximumDays": "10"
+                    },
+                    {
+                        "from": "From South Australia\n",
+                        "minimumDays": "6",
+                        "maximumDays": "10"
+                    },
+                    {
+                        "from": "From Tasmania\n",
+                        "minimumDays": "9",
+                        "maximumDays": "11"
+                    },
+                    {
+                        "from": "From Victoria\n",
+                        "minimumDays": "7",
+                        "maximumDays": "10"
+                    }
+                ]
+            }
+        ]
+    }
+]
