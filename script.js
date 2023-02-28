@@ -1,3 +1,43 @@
+let formatState = (state) => {
+    state = state.toLowerCase();
+    if (state.includes('australian capital territory') || state.includes('act')) {
+        return 'ACT';
+    }
+
+    if (state.includes('new south wales')) {
+        return 'NSW';
+    }
+    if (state.includes('northern territory')) {
+        return 'NT';
+    }
+    if (state.includes('queensland')) {
+        return 'QLD';
+    }
+    if (state.includes('south australia')) {
+        return 'SA';
+    }
+    if (state.includes('tasmania')) {
+        return 'TAS';
+    }
+    if (state.includes('victoria')) {
+        return 'VIC';
+    }
+    if (state.includes('western australia')) {
+        return 'WA';
+    }
+
+    return 'SAME-STATE';
+}
+
+let formatPostType = (type) => {
+    if (type.includes('Parcel')) {
+        return 'STD';
+    }
+    if (type.includes('Express')) {
+        return 'EXP';
+    }
+}
+
 // Get delivery estimates table from html above
 let dataku = [];
 let debug = [];
@@ -51,22 +91,23 @@ element.forEach((el) => {
             const maximumDays = cells[2].querySelector('td :nth-child(2)').innerText;
 
             tableData.push({
-                from : from,
+                from : formatState(from),
                 minimumDays : minimumDays.split(' ')[0],
                 maximumDays : maximumDays.split(' ')[0]
             });
         });
 
         data.push({
-            type : caption,
+            type : formatPostType(caption),
             data : tableData
         });
     });
 
     dataku.push({
-        destination : destination,
+        destination : formatState(destination),
         origin : data
     });
 });
 
 dataku;
+
